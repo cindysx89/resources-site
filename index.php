@@ -1,5 +1,6 @@
 <?php include('include/header.php'); ?>
-			<!-- Fixed navbar -->
+			
+			<!-- Fixed navbar -->		
 			<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 				<div class="container">
 					<div class="navbar-header">
@@ -9,7 +10,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">Selected Resources</a>
+						<a class="navbar-brand" href="#">Lara's Resources</a>
 					</div>
 					<div class="navbar-collapse collapse" style="height: 1px;">
 						<ul class="nav navbar-nav">
@@ -26,15 +27,23 @@
 
 			<!-- Begin page content -->
 			<div class="container">
-				<div class="page-header">
-					<h1>Hi there!</h1>
-				</div>
-				<p class="lead">Welcome to Lara's Preferred Resources for budding web designers.</p>
-				<p>I'm always sending clients the same list of go-to resources - might as well put 'em in a website! It takes me way too long to write emails anyway.</p>
-				<p>Feel free to <a href="mailto:lara@notlaura.com">get in touch</a> if you think I'm missing anything!</p>
-				<hr />
-				<small>P.S. for you GA folk, this is basically the list on Schoologeezy.</small>
+				<body>
+					<div class="page-header">
+						<h1>List of Preferred Resources</h1>
+						<h3>for budding web designers</h3>
+					</div>
+
+					<p class="lead">Welcome to Lara's Preferred Resources</p>
+					<p>I am always sharing the same list of go-to resources to clients and students, so I might as well put 'em on a website! It takes me way too long to write emails anyway.</p>
+					<p>Feel free to <a href="mailto:lara@notlaura.com">get in touch</a> if you think I'm missing anything!</p>
+					<hr />
+					<small>P.S. for you GA folk, this is basically the list on Schoologeezy.</small>
+			
+
+
+
+			</body>
 			</div>
-		</div>
+		
 
 <?php include('include/footer.php'); ?>

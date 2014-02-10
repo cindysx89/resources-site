@@ -29,18 +29,65 @@ body {
 /* Not required for template or sticky footer method. */
 
 #wrap > .container {
-  padding: 60px 15px 0;
+  padding: 60px 60px;
 }
+
 .container .text-muted {
   margin: 20px 0;
 }
 
-#footer > .container {
-  padding-left: 15px;
-  padding-right: 15px;
+h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #5E5E5E;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.navbar > .container {
+  background: #45ADA8;
+}
+.navbar-default .container > .navbar-header > a {
+  color: white;
+}
+
+.navbar-default  {
+  border-bottom: 5px solid #547980;
+}
+
+.page-header {
+  border-bottom: 3px solid #EEE;
 }
 
 code {
   font-size: 80%;
 }
+
+body {
+   background-color: #E2ECEB;
+   font-family: 'Montserrat', sans-serif;
+   color: #5E5E5E;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  color: #5E5E5E;
+}
+
+.nav-pills > li {
+  font-
+}
+
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
 
