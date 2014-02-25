@@ -1,12 +1,5 @@
-<html lang="en"><head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<!-- <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
- -->
-	<title>Resources | Tutorials</title>
+<?php include('include/header.php'); ?>
+
 
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap.css" rel="stylesheet">
@@ -14,14 +7,7 @@
 	<!-- Author styles -->
 	<link href="custom/style.css" rel="stylesheet">
 
-	<!-- Just for debugging purposes. Don't actually copy this line! -->
-	<!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-	<![endif]-->
+	
   </head>
 
   <body style="">
@@ -29,30 +15,37 @@
 	<!-- Wrap all page content here -->
 	<div id="wrap">
 
+		 <!-- Fixed navbar -->
+
+	<title>Tutorials</title>
+
+
+
 	  <!-- Fixed navbar -->
 	  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-		<div class="container">
-		  <div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-			  <span class="sr-only">Toggle navigation</span>
-			  <span class="icon-bar"></span>
-			  <span class="icon-bar"></span>
-			  <span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">Lara's Resources</a>
-		  </div>
-		  <div class="navbar-collapse collapse" style="height: 1px;">
-			<ul class="nav navbar-nav">
-			  <li><a href="index.php">Home</a></li>
-			  <li class="active"><a href="tutorials.html">Tutorials</a></li>
-			  <li><a href="tools.html">Tools</a></li>
-			  <li><a href="articles.html">Articles</a></li>
-			  <li><a href="blogs.html">Blogs</a></li>
-			  <li><a href="reference.html">Reference</a></li>
-			</ul>
-		  </div><!--/.nav-collapse -->
-		</div>
-	  </div>
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><h1 class="site-title">Lara Schenck</h1></a>
+						<h3 class="site-desc h5">List of Preferred Resources</h3>
+					</div>
+					<div class="navbar-collapse collapse" style="height: 1px;">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="tutorials.html">Tutorials</a></li>
+							<li><a href="tools.html">Tools</a></li>
+							<li><a href="articles.html">Articles</a></li>
+							<li><a href="blogs.html">Blogs</a></li>
+							<li><a href="reference.html">Reference</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div>
 
 	  <!-- Begin page content -->
 	  <div class="container">
@@ -88,12 +81,14 @@
 				<p>As soon as you start your Googling career, you will see w3schools popping up all the time. I have my quips with it, but the tutorials are solid.</p>
 			</div>
 
+
+
 			<div class="well">
 				<h4><a href="http://net.tutsplus.com/" taget="blank">net tuts+</a></h4>
 				<p>Tons and tons of tutorials on this site on anything from super beginner to very advanced. A nice site to keep an eye on in your RSS feed.</p>
 		</section>
 
-		<section id="webatlarge">
+		<section id="html">
 			<hr />
 			<h2 class="header">HTML</h2>
 			<hr />
@@ -102,7 +97,54 @@
 				<h4><a href="http://www.w3schools.com/">w3schools Online Web Tutorials</a></h4>
 				<p>As soon as you start your Googling career, you will see w3schools popping up all the time. I have my quips with it, but the tutorials are solid.</p>
 			</div>
+
+
+			<div class="well">
+				<h4><a href="#">General Assembly - Programming for Non-Programmers</a></h4>
+				<p>Great resource at an affordable price. They also have in-person courses that are pretty great! (Not like I've taught there or anything..)</p>
+			</div> 
 		</section>
+
+		<section id="css">
+			<hr />
+			<h2 class="header">CSS</h2>
+			<hr />
+
+			<div class="well">
+				<h4><a href="#">General Assembly - Dash</a></h4>
+				<p>Another great resource from General Assembly (this one is free). Allows you to learn by coding along (similar to codeacademy).</p>
+			</div>
+
+
+
+
+		</section>
+
+		<section id="wordpress">
+			<hr />
+			<h2 class="header">Wordpress</h2>
+			<hr />
+
+			<div class="well">
+				<h4><a href="#"></a>
+
+			</div>
+		</section>
+
+		<section id="wordpress">
+			<hr />
+			<h2 class="header">Front-end</h2>
+			<hr />
+
+			<div class="well">
+				<h4><a href="#"></a>
+
+			</div>
+		</section>
+
+
+
+
 
 	</div> <!-- /.container -->
 
@@ -113,11 +155,5 @@
 	</div>
 
 
-	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-  
+	
 
-</body></html>

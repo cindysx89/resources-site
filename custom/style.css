@@ -20,7 +20,11 @@ body {
 /* Set the fixed height of the footer here */
 #footer {
   height: 60px;
-  background-color: #f5f5f5;
+  background-color: #237FA9;
+  border-top: 5px solid #86b2c6;
+  border-bottom: 5px solid #e6e6e6;
+  position: fixed;
+  bottom: 0;
 }
 
 
@@ -30,36 +34,87 @@ body {
 
 #wrap > .container {
   padding: 60px 60px;
+  font-family: 'Museo-Sans-1', sans-serif;
 }
 
 .container .text-muted {
   margin: 20px 0;
 }
 
+
+
 h1 {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #5E5E5E;
+  color: #86b2c6;
 }
 
 .page-header {
   text-align: center;
 }
 
+.navbar-default {
+  padding-right: 50px;
+}
+
 .navbar > .container {
-  background: #45ADA8;
+  background: #237fa9;
+  padding: 1.44rem 0;
 }
 .navbar-default .container > .navbar-header > a {
-  color: white;
+  color: #F4F7F9;
 }
 
 .navbar-default  {
-  border-bottom: 5px solid #547980;
+  border-bottom: 5px solid #e6e6e6;
+  border-top: 5px solid #86b2c6;
+}
+
+.active {
+  color: #e6e6e6;
+  font-color: #F4F7F9;
+}
+
+.navbar-nav  {
+  padding-top: 15px;
+  padding-left: 300px;
+}
+
+.navbar-nav > li > a {
+  line-height: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #F4F7F9;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: #237fa9;
+  color: #F4F7F9;
+}
+
+
+
+
+.site-title {
+  margin: 0;
+  font-size: 2.88rem;
+  padding-left: 30px;
+}
+
+.site-desc {
+ 
+  font-size: 1.44rem;
+  text-transform: lowercase;
+  font-weight: 100;
+  color: #E6E6E6;
+  padding: 0;
+  margin: 0;
 }
 
 .page-header {
   border-bottom: 3px solid #EEE;
+  padding-top: 20px;
 }
 
 code {
@@ -67,21 +122,18 @@ code {
 }
 
 body {
-   background-color: #E2ECEB;
-   font-family: 'Montserrat', sans-serif;
-   color: #5E5E5E;
+   background-color: white;
+   font-family: 'museo-sans-1', 'museo-slab-1';
+   color: #231f20;
 }
 
 h3 {
   text-align: center;
-  font-family: 'Lora', serif;
-  font-style: italic;
+  font-family: 'lora', 'sans-serif';
   color: #5E5E5E;
 }
 
-.nav-pills > li {
-  font-
-}
+
 
 
 #footer > .container {

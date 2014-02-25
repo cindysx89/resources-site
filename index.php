@@ -10,7 +10,8 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">Lara's Resources</a>
+						<a class="navbar-brand" href="#"><h1 class="site-title">Lara Schenck</h1></a>
+						<h3 class="site-desc h5">List of Preferred Resources</h3>
 					</div>
 					<div class="navbar-collapse collapse" style="height: 1px;">
 						<ul class="nav navbar-nav">
@@ -29,7 +30,7 @@
 			<div class="container">
 				<body>
 					<div class="page-header">
-						<h1>List of Preferred Resources</h1>
+						<h1>Lara's List of Preferred Resources</h1>
 						<h3>for budding web designers</h3>
 					</div>
 
