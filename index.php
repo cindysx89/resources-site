@@ -15,12 +15,12 @@
 					</div>
 					<div class="navbar-collapse collapse" style="height: 1px;">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="tutorials.html">Tutorials</a></li>
-							<li><a href="tools.html">Tools</a></li>
-							<li><a href="articles.html">Articles</a></li>
-							<li><a href="blogs.html">Blogs</a></li>
-							<li><a href="reference.html">Reference</a></li>
+							<li class="active"><a href="index.php">Home</a></li>
+							<li><a href="tutorials.php">Tutorials</a></li>
+							<li><a href="tools.php">Tools</a></li>
+							<li><a href="articles.php">Articles</a></li>
+							<li><a href="blogs.php">Blogs</a></li>
+							<li><a href="reference.php">Reference</a></li>
 						</ul>
 					</div><!--/.nav-collapse -->
 				</div>

@@ -4,6 +4,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">
+		<link href='http://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	    <script type="text/javascript" src="//use.typekit.net/xqo8pio.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		<!-- <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
  -->
 		<title>Resources</title>

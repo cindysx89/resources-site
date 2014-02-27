@@ -1,56 +1,29 @@
-<html lang="en"><head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<!-- <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
- -->
+<?php include('include/header.php'); ?>
+
 	<title>Tools</title>
 
-	<!-- Bootstrap core CSS -->
-	<link href="css/bootstrap.css" rel="stylesheet">
 
-	<!-- Author styles -->
-	<link href="custom/style.css" rel="stylesheet">
-
-	<!-- Just for debugging purposes. Don't actually copy this line! -->
-	<!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-	<![endif]-->
-
-	
-  </head>
-
-  <body style="">
-
-	<!-- Wrap all page content here -->
-	<div id="wrap">
-
-		 <!-- Fixed navbar -->
-	  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-		<div class="container">
-		  <div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-			  <span class="sr-only">Toggle navigation</span>
-			  <span class="icon-bar"></span>
-			  <span class="icon-bar"></span>
-			  <span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">Lara's Resources</a>
-		  </div>
-		  <div class="navbar-collapse collapse" style="height: 1px;">
+		 <!-- Fixed navbar -->	
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+						<a class="navbar-brand" href="#"><h1 class="site-title">Lara Schenck</h1></a>
+						<h3 class="site-desc h5">List of Preferred Resources</h3>
+					</div>
+					<div class="navbar-collapse collapse" style="height: 1px;">
 			<ul class="nav navbar-nav">
 			  <li><a href="index.php">Home</a></li>
-			  <li><a href="tutorials.html">Tutorials</a></li>
-			  <li class="active"><a href="tools.html">Tools</a></li>
-			  <li><a href="articles.html">Articles</a></li>
-			  <li><a href="blogs.html">Blogs</a></li>
-			  <li><a href="reference.html">Reference</a></li>
+			  <li><a href="tutorials.php">Tutorials</a></li>
+			  <li class="active"><a href="tools.php">Tools</a></li>
+			  <li><a href="articles.php">Articles</a></li>
+			  <li><a href="blogs.php">Blogs</a></li>
+			  <li><a href="reference.php">Reference</a></li>
 			</ul>
 		  </div><!--/.nav-collapse -->
 		</div>
@@ -67,11 +40,12 @@
 
 		<h5>Or jump to:</h5>
 			<ul class="nav nav-pills">
-				<li><a href="#webatlarge">Web at Large</a></li>
-				<li><a href="#html">HTML</a></li>
-				<li><a href="#css">CSS</a></li>
-				<li><a href="#wordpress">WordPress</a></li>
-				<li><a href="#frontend">Front-end</a></li>
+				<li class="active"><a href="index.php">Home</a></li>
+				<li><a href="tutorials.php">Tutorials</a></li>
+				<li><a href="tools.php">Tools</a></li>
+				<li><a href="articles.php">Articles</a></li>
+				<li><a href="blogs.php">Blogs</a></li>
+				<li><a href="reference.php">Reference</a></li>
 			  
 			</ul>
 
@@ -197,23 +171,7 @@
 
 </div> <!-- /.container -->
 
-	<div id="footer">
-	  <div class="container">
-		<p class="text-muted">&copy; Lara Schenck</p>
-	  </div>
-	</div>
+
+<?php include('include/footer.php'); ?>
 
 
-	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-
-	
-
-	<script src="js/zrssfeed-120/jquery.zrssfeed.min.js" type="text/javascript"></script>
-	<script src="custom/main.js"></script>
-  
-
-</body></html>
