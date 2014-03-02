@@ -12,19 +12,28 @@ body {
   min-height: 100%;
   height: auto;
   /* Negative indent footer by its height */
-  margin: 0 auto -60px;
+  margin: 0 auto -40px;
   /* Pad bottom by footer height */
   padding: 0 0 60px;
 }
 
 /* Set the fixed height of the footer here */
 #footer {
-  height: 60px;
+  height: 40px;
   background-color: #237FA9;
   border-top: 5px solid #86b2c6;
   border-bottom: 5px solid #e6e6e6;
   position: fixed;
   bottom: 0;
+}
+
+#footer > .container {
+  padding-top: 5px;
+}
+
+#footer > .text-muted > a:link {
+  color: #F4F7F9;
+  text-decoration: none;
 }
 
 
@@ -63,6 +72,7 @@ h1 {
 }
 .navbar-default .container > .navbar-header > a {
   color: #F4F7F9;
+  padding-top: 10px;
 }
 
 .navbar-default  {
@@ -82,18 +92,29 @@ h1 {
 
 .navbar-nav > li > a {
   line-height: 0;
+  font-size: 16px;
+}
+
+.navbar-nav > li {
+  padding-right: 15px;
+}
+
+
+.navbar-nav > li > a:hover {
+  border-bottom: 2px dotted #F4F7F9;
+  font-color: #86B2C6;
 }
 
 .navbar-default .navbar-nav > li > a {
   color: #F4F7F9;
+  padding-right: 15px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background-color: #237fa9;
-  color: #F4F7F9;
-}
-
-
+  color: #86B2C6;
+  border-bottom: 2px solid #F4F7F9;
+ }
 
 
 .site-title {
@@ -106,9 +127,9 @@ h1 {
  
   font-size: 1.44rem;
   text-transform: lowercase;
-  font-weight: 100;
+  font-weight: 200;
   color: #E6E6E6;
-  padding: 0;
+  padding-left: 7px;
   margin: 0;
 }
 

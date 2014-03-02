@@ -1,6 +1,6 @@
 <div id="footer">
 	      <div class="container">
-	        <p class="text-muted">&copy; Lara Schenck</p>
+	        <p class="text-muted">&copy; <a href="www.notlaura.com">Lara Schenck</p></a>
 	      </div>
 	    </div>
 
