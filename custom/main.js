@@ -1,6 +1,10 @@
 $(document).ready(function () {
-	$('#test').rssfeed('https://kippt.com/laras126/excellent-links/feed', {
-		limit: 5,
+	$('#rss').rssfeed('https://kippt.com/laras126/excellent-links/feed', {
+		limit: 25,
 		linktarget: '_blank'
+
+
+
 	});
 });
+

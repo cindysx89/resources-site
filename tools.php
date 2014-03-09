@@ -24,6 +24,7 @@
 			  <li><a href="articles.php">Articles</a></li>
 			  <li><a href="blogs.php">Blogs</a></li>
 			  <li><a href="reference.php">Reference</a></li>
+			  <li><a href="links.php">Links</a></li>
 			</ul>
 		  </div><!--/.nav-collapse -->
 		</div>
@@ -33,21 +34,19 @@
 	  <div class="container">
 
 	  	<div class="page-header">
-		  <h1>Tutorials</h1>
+		  <h1>Tools</h1>
 		</div>
 		<p class="lead">Here are some <em>useful</em> tools to help you learn</p>
 		<p class="lead">Broken down by type.</p>
 
 		<h5>Or jump to:</h5>
-			<ul class="nav nav-pills">
-				<li class="active"><a href="index.php">Home</a></li>
-				<li><a href="tutorials.php">Tutorials</a></li>
-				<li><a href="tools.php">Tools</a></li>
-				<li><a href="articles.php">Articles</a></li>
-				<li><a href="blogs.php">Blogs</a></li>
-				<li><a href="reference.php">Reference</a></li>
-			  
-			</ul>
+		<ul class="nav nav-pills">
+			<li><a href="#webatlarge">Web at Large</a></li>
+			<li><a href="#html">HTML</a></li>
+			<li><a href="#css">CSS</a></li>
+			<li><a href="#wordpress">WordPress</a></li>
+			<li><a href="#frontend">Front-end</a></li>  	  
+		</ul>
 
 
 

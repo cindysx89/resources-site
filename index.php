@@ -21,6 +21,7 @@
 							<li><a href="articles.php">Articles</a></li>
 							<li><a href="blogs.php">Blogs</a></li>
 							<li><a href="reference.php">Reference</a></li>
+							<li><a href="links.php">Links</a></li>
 						</ul>
 					</div><!--/.nav-collapse -->
 				</div>
@@ -34,7 +35,7 @@
 						<h3>for budding web designers</h3>
 					</div>
 
-					<p class="lead">Welcome to Lara's Preferred Resources</p>
+					<p class="lead">Welcome to Lara's List of Preferred Resources</p>
 					<p>I am always sharing the same list of go-to resources to clients and students, so I might as well put 'em on a website! It takes me way too long to write emails anyway.</p>
 					<p>Feel free to <a href="mailto:lara@notlaura.com">get in touch</a> if you think I'm missing anything!</p>
 					<hr />
